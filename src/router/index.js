@@ -4,6 +4,7 @@ import Study01Test from '../views/Study01Test.vue'
 import PostDetail from '../views/board/PostDetail.vue'
 import PostEdit from '../views/board/PostEdit.vue'
 import PostWrite from '../views/board/PostWrite.vue'
+import BoardLogin from '../views/board/BoardLogin.vue'
 
 const routes = [
   {
@@ -54,6 +55,10 @@ const routes = [
     path: '/posts/write',
     name: 'write',
     component: PostWrite,
+  },{
+    path: '/board/login',
+    name: 'login',
+    component: BoardLogin,
   },
 ]
 
